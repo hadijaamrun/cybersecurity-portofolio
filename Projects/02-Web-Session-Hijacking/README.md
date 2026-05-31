@@ -3,7 +3,7 @@
 ## Objective
 Execute Man-in-the-Middle (MITM) attacks to intercept local network traffic, extract plaintext credentials, and hijack active web sessions.
 
-## 🛠️ Tools Used
+##  Tools Used
 *   Bettercap
 *   Wireshark
 
