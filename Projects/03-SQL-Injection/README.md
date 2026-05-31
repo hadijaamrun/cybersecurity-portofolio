@@ -1,14 +1,14 @@
 # Project 3: Advanced SQL Injection Attacks
 
-## 🎯 Objective
+## Objective
 Identify, exploit, and mitigate SQL Injection (SQLi) vulnerabilities in a web application (DVWA) to bypass authentication and extract sensitive database records.
 
-## 🛠️ Tools Used
+## Tools Used
 *   SQLMap
 *   John the Ripper
 *   Burp Suite
 
-## 🔬 Execution & Methodology
+## Execution & Methodology
 
 ### 1. Vulnerability Identification & Auth Bypass
 *   Injected a single quote (`'`) into the User ID parameter, which triggered a MariaDB syntax error, confirming the absence of input sanitization.
@@ -27,7 +27,7 @@ Identify, exploit, and mitigate SQL Injection (SQLi) vulnerabilities in a web ap
 *   Saved the administrator's MD5 hash (`5f4dcc3b5aa765d61d8327deb882cf99`) into a text file.
 *   Utilized John the Ripper (`--format=raw-md5 --wordlist=rockyou.txt`) to crack the hash offline, successfully retrieving the plaintext password (`password`) in seconds due to the lack of cryptographic salt.
 
-## 🛡️ Mitigation & Recommendations
+## Mitigation & Recommendations
 *   **Secure Coding:** Strictly implement Prepared Statements (Parameterized Queries) to separate SQL instructions from user-supplied data, neutralizing injection attempts.
 *   **Least Privilege:** Configure database user accounts with minimal necessary privileges, restricting access to system tables like `information_schema`.
 *   **Modern Hashing:** Replace outdated MD5 hashing algorithms with robust, computationally expensive alternatives like BCrypt or Argon2, and always include a unique salt.
