@@ -127,5 +127,5 @@ My ultimate goal is to work in a specialized offensive security team as a **Pene
 
 Feel free to reach out to me via the following platforms:
 *   **Email:** hanifnurmaajid@outlook.com
-*   **LinkedIn:** 
-*   **GitHub:** 
+*   **LinkedIn:** https://www.linkedin.com/in/hanifanmaj/
+*   **GitHub:** https://github.com/hadijaamrun/cybersecurity-portofolio
