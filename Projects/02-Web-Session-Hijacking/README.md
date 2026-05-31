@@ -1,13 +1,13 @@
 # Project 2: Web Session Hacking and Hijacking
 
-## 🎯 Objective
+## Objective
 Execute Man-in-the-Middle (MITM) attacks to intercept local network traffic, extract plaintext credentials, and hijack active web sessions.
 
 ## 🛠️ Tools Used
 *   Bettercap
 *   Wireshark
 
-## 🔬 Execution & Methodology
+## Execution & Methodology
 
 ### 1. Network Reconnaissance
 *   Executed Bettercap (`net.probe on`) to map the local network topology and successfully identified the target victim's IP address and the gateway.
@@ -24,7 +24,7 @@ Execute Man-in-the-Middle (MITM) attacks to intercept local network traffic, ext
 *   Performed Cookie Injection by modifying the browser's storage data via the developer tools, inserting the stolen `ASPSESSIONID`.
 *   Refreshed the page and successfully bypassed the authentication portal, gaining full access to the target's authenticated session without needing to log in.
 
-## 🛡️ Mitigation & Recommendations
+## Mitigation & Recommendations
 *   **Encryption (HTTPS):** Enforce SSL/TLS across the entire web application to encrypt data in transit, making intercepted packets unreadable to attackers.
 *   **Secure Cookies:** Implement the `HttpOnly` and `Secure` attributes on session cookies to prevent theft via client-side scripts and ensure cookies are only transmitted over encrypted connections.
 *   **Session Management:** Regenerate the Session ID immediately after a successful user login to prevent session fixation attacks.
