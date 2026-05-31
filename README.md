@@ -2,13 +2,13 @@
 
 Welcome to my cybersecurity portfolio! This repository showcases my learning journey, technical skills, projects, certifications, and career aspirations in the field of cybersecurity. It serves as a digital CV to demonstrate my growth and passion for securing critical systems and networks.
 
+
 ## 👤 About Me
 
 Hi! My name is Hanif, and I am a cybersecurity enthusiast dedicated to learning and applying best practices to protect systems and data. Currently, I am a Computer Science student with a focus on penetration testing and threat analysis.
 
 *   **Current Role:** Computer Science Student
 *   **Passion:** I have a strong interest in penetration testing, red teaming, and helping companies enhance their security posture by identifying critical vulnerabilities. 
-*   **Fun Facts:** When I'm not working on cybersecurity, I enjoy exploring new technologies and expanding my programming knowledge.
 
 
 ## 🛠️ Technical Skills
