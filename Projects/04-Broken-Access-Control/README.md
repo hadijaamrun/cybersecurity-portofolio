@@ -1,14 +1,14 @@
 # Project 4: Broken Access Control & IDOR Exploitation
 
-## 🎯 Objective
+## Objective
 Discover hidden web resources and exploit authorization flaws (Broken Access Control and IDOR) to access administrative functions and unauthorized user data.
 
-## 🛠️ Tools Used
+## Tools Used
 *   Dirb
 *   Gobuster
 *   Burp Suite (Intruder)
 
-## 🔬 Execution & Methodology
+## Execution & Methodology
 
 ### 1. Reconnaissance & Directory Enumeration
 *   Executed directory brute-forcing using Dirb and Gobuster with a standard wordlist.
@@ -28,7 +28,7 @@ Discover hidden web resources and exploit authorization flaws (Broken Access Con
 *   Downloaded an exposed `backup.zip` archive containing `database_backup.sql`. Analysis of the file revealed a plaintext JSON database exposing all user records.
 *   Retrieved an unprotected internal file named `private-data.txt` marked as confidential.
 
-## 🛡️ Mitigation & Recommendations
+## Mitigation & Recommendations
 *   **Role-Based Access Control (RBAC):** Enforce strict Server-Side Role Validation to ensure users can only access endpoints matching their authorized privilege levels (e.g., `if ($_SESSION['role'] !== 'admin') { block_access(); }`).
 *   **Object-Level Authorization:** Validate data ownership before processing requests to prevent IDOR, and replace sequential numeric IDs with unpredictable UUIDs/GUIDs.
 *   **Web Server Hardening:** Disable Directory Indexing (e.g., `Options -Indexes` in Apache) and ensure backup files are stored outside the public web root directory.
