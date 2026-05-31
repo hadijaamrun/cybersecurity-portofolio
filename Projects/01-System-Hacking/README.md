@@ -1,16 +1,16 @@
 # Project 1: System Hacking & Privilege Escalation
 
-## 🎯 Objective
+## Objective
 Perform post-exploitation and privilege escalation techniques to gain administrative control over intentionally misconfigured Windows and Linux systems.
 
-## 🛠️ Tools Used
+## Tools Used
 *   Metasploit Framework (MSFvenom)
 *   John the Ripper
 *   Hashcat
 *   `pth-winexe`
 *   Netcat
 
-## 🔬 Execution & Methodology
+## Execution & Methodology
 
 ### 1. Windows Privilege Escalation
 *   **Insecure Service Executable:** Identified a vulnerable service named `filepermsvc` running with `LocalSystem` privileges. Verification using `accesschk.exe` confirmed that the `Everyone` group had `FILE_ALL_ACCESS` permissions on the service binary.
@@ -23,7 +23,7 @@ Perform post-exploitation and privilege escalation techniques to gain administra
 *   **SUID Exploitation:** Identified `exim-4.84-3` running with an SUID bit and exploited it using a local root exploit script (CVE-2016-1531).
 *   **Information Disclosure:** Found a hidden, world-readable `.ssh` directory at the root level containing a private RSA key (`root_key`). Downloaded the key and used it to SSH into the machine directly as root.
 
-## 🛡️ Mitigation & Recommendations
+## Mitigation & Recommendations
 *   **Least Privilege:** Ensure service binaries and critical scripts are not writable by standard users.
 *   **Secure Authentication:** Implement Kerberos instead of NTLM to prevent Pass-the-Hash attacks.
 *   **File Permissions:** Restrict access to sensitive files like `/etc/shadow` and SSH private keys using appropriate permissions (e.g., `chmod 600`).
