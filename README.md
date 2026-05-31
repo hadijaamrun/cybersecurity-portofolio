@@ -3,7 +3,7 @@
 Welcome to my cybersecurity portfolio! This repository showcases my learning journey, technical skills, projects, certifications, and career aspirations in the field of cybersecurity. It serves as a digital CV to demonstrate my growth and passion for securing critical systems and networks.
 
 
-## 👤 About Me
+## About Me
 
 Hi! My name is Hanif, and I am a cybersecurity enthusiast dedicated to learning and applying best practices to protect systems and data. Currently, I am a Computer Science student with a focus on penetration testing and threat analysis.
 
@@ -11,7 +11,7 @@ Hi! My name is Hanif, and I am a cybersecurity enthusiast dedicated to learning 
 *   **Passion:** I have a strong interest in penetration testing, red teaming, and helping companies enhance their security posture by identifying critical vulnerabilities. 
 
 
-## 🛠️ Technical Skills
+## Technical Skills
 
 **Tools:**
 *   **Network Analysis:** Wireshark, Bettercap
@@ -31,7 +31,7 @@ Hi! My name is Hanif, and I am a cybersecurity enthusiast dedicated to learning 
 *   **Red Team / Blue Team Exercises:** Offensive security practices to simulate and analyze real-world attacks.
 
 
-## 🏆 Certifications and Training
+## Certifications and Training
 
 Below are my completed training programs and platforms I actively use to enhance my cybersecurity skills:
 
@@ -44,7 +44,7 @@ Below are my completed training programs and platforms I actively use to enhance
 *   **Cisco Networking Academy:** Learned the basic principles of networking and network defense.
 
 
-## 📈 Learning Journey
+## Learning Journey
 
 **What I've Learned So Far:**
 *   Gained a solid foundation in penetration testing, focusing heavily on OWASP Top 10 vulnerabilities.
@@ -56,12 +56,12 @@ Below are my completed training programs and platforms I actively use to enhance
 *   **Long-term:** Continue advancing my offensive security skills to achieve elite certifications such as OSCP, CEH, or CPTS.
 
 
-## 🎯 Career Objective
+## Career Objective
 
 My ultimate goal is to work in a specialized offensive security team as a **Penetration Tester** or **Red Teamer**. I aim to specialize in offensive security, helping organizations secure their digital infrastructure by simulating real-world cyber attacks and identifying critical flaws before adversaries do.
 
 
-## 📫 Contact Information
+## Contact Information
 
 Feel free to reach out to me via the following platforms:
 *   **Email:** hanifnurmaajid@outlook.com
